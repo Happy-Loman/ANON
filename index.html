@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.0.0-alpha1.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+  <title>Anon</title>
+</head>
+<body>
+  <a id="top" href="top"></a>
+	<div class="page_title_container">
+		<h1 class="page_title">ANON</h1>
+		<ul class="nav">
+			<a href="write.html"><li class="remove_highlight write_post">Write Post</li></a>
+			<a href="index.html"><li class="remove_highlight read_posts">Read Post</li></a>
+		</ul>
+	</div> 
+
+  <div class="contain not_displayed display_post_continer">
+      <div class="display_post">
+	    <h1 id="post_title" class="underline post_title"></h1>
+		<span id="time_posted" class="time_posted">00:00</span>
+		<div id="previous" class="remove_highlight switch_post previous_post"><span>‹</span></div>
+	    <p id="post_text" class="post">I am a Sophomore attending Wentworth Institute of Technology studying Computer Information Systems with a Minor in Computer Science. As a Coding Instructor for Action for Boston Community Development(ABCD), I gained exceptional communication and time management skills. I was able to create a fun and engaging learning environment for the various students and Instructors I worked with. Teaching the classes helped nurture my Work Ethic, as I needed to come to each class session knowing what I would teach. While working at Resilient Coders I developed strong bonds with the clients I worked with. With every client, I tried to understand their desire for their project and worked according to their agenda, while keeping my work as detailed as possible. As someone who is dedicated to their work and preparing the best work to clients, I was at all times closely involved in everything that happened during the development of the client’s website. I take pride in organizing the client’s project and working out each step individually.</p>
+		<div id="next" class="remove_highlight switch_post next_post"><span>›</span></div>
+	  <div class="button close_button">Close</div>
+      </div>
+  </div> 
+	
+  <div class="contain container">
+    <p>Read some posts.</p>
+	  <div id="posts" class="posts">
+		  <p>Retrieving Posts...</p> 
+	    <!--<div id="post_0" class="anon_text_container topdown_view">
+	       <div id="title_0" class="title box_view">
+			  The story
+		      <span class="time_posted">10:35</span>
+			</div>
+          <div id="text_0" class="text">I am a Sophomore attending Wentworth Institute of Technology studying Computer Information Systems with a Minor in Computer Science. As a . . .   </div> 
+	    </div>-->
+	  </div> 
+	  <script type="text/javascript" src="JS/script.js"></script>
+  </div>
+	<footer class="site-footer">
+	    <a href="index.html">ANON</a>
+	    <p>A simple Proof of Concept by Kunle Lawal</p>
+		<p>Contact: lawalo@wit.edu</p>
+	</footer>
+</body>
+</html>

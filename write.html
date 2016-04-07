@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.0.0-alpha1.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+  <title>Anon</title>
+</head>
+<body>
+  <a id="top" href="top"></a>
+	<div id="check_submit" class="not_displayed check_submit">
+	<h1>Are you sure?</h1>
+  		<p>You are about to send your post to the public. <span id="submission_type">If you wish to continue type what you see here</span><br><br> 
+  		<span id="submit_input_text">[Sample Text]</span> 
+  		<br> </p>
+  		<input type="text" class="submit_input">
+  		<div class="close_button button">Close</div>
+  	</div>
+	  	<div class="page_title_container">
+		 	<h1 class="page_title">ANON</h1>
+		  	<ul class="nav">
+				<a href="write.html"><li class="remove_highlight write_post">Write Post</li></a>
+				<a href="index.html"><li class="remove_highlight read_posts">Read Post</li></a>
+			</ul>
+	  	</div> 
+  <div id="pop_up" class="contain write_post_popup">
+          <h1 class="">Create Post</h1>
+	      <p>Some info here about what to post, idk what to say.</p>
+	      <h2 class="">Title of Post</h2>
+	      <input type="text" id="add_title" class="inputs" placeholder="Add a title...">
+	      <h2 class="">Write Post</h2>
+	      <textarea id="textarea" name="" placeholder="Write your thoughts here..." class="inputs" cols="30" rows="6" style=" word-wrap: break-word; resize: none;"></textarea>
+	  <div class="button submit_button">Submit</div>
+  </div>
+  <script type="text/javascript" src="JS/script.js"></script>
+  <script type="text/javascript" src="JS/write.js"></script>
+  </div>
+  <footer class="site-footer">
+	    <a href="index.html">ANON</a>
+	    <p>A simple Proof of Concept by Kunle Lawal</p>
+		<p>Contact: lawalo@wit.edu</p>
+	</footer>
+</body>
+</html>
